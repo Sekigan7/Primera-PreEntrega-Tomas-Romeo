@@ -23,9 +23,9 @@ gpa = (exam1+exam2+exam3+final)/4;
 //                          Calculamos si la suma de los parciales hace al promedio desaprobado o aprobado
 
 if(gpa >= 6.7){
-    alert("El promedio de "+ namei + " es " + gpa +" APROBADO");
+    alert("El promedio de "+ namei + " es " + gpa +". Logro alcanzar la nota esperada para aprobar"");
 }else{
-    alert("El promedio de "+ namei + " es " + gpa +" DESAPROBADO");
+    alert("El promedio de "+ namei + " es " + gpa +". No logro alcanzar la nota esperada.");
 }
 
 //                        Guardamos el porcentaje de los alumnos para tener un registro en la consola
